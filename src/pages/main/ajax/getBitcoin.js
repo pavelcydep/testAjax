@@ -15,7 +15,7 @@ $(function() {
 $("body").delegate("#search__button",'click',function(){
     
     $.ajax({
-        url: '../../../../src/pages/main/bitcoin/bitcoin.php',         
+        url: '../../main/bitcoin/bitcoin.php',         
         method: 'get',            
         dataType: 'json', 
         cache: false,      
